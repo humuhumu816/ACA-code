@@ -1,4 +1,15 @@
- <form fd="encrypt-form">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <div class="container">
+    <h1> THE BANANA MAN</h1>
+    
+    <form fd="encrypt-form">
       <label for="encrypt">Encrypt a BANANA</label>
       <br>
       <textarea id="encrypt" name="encrypt"></textarea>
@@ -14,3 +25,6 @@
       <input type="submit" value="Decrypt">
       <p class="message" id="encoded-message"></p>
     </form>
+ </div>
+    </body>
+</html>
