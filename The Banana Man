@@ -1,0 +1,16 @@
+ <form fd="encrypt-form">
+      <label for="encrypt">Encrypt a BANANA</label>
+      <br>
+      <textarea id="encrypt" name="encrypt"></textarea>
+      
+      <input type="submit" value="Encrypt">
+      <p class="message" id="encoded-meggage"></p>
+    </form>
+     <form fd="decrypt-form">
+      <label for="decrypt">Decrypt a BANANA</label>
+      <br>
+      <textarea id="decrypt" name="dencrypt"></textarea>
+      
+      <input type="submit" value="Decrypt">
+      <p class="message" id="encoded-message"></p>
+    </form>
