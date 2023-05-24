@@ -2,7 +2,7 @@ console.log('The encryptor js file loaded');
 console.log('The encryptor js file loaded'); 
 
 const letters = 'abcdefghijklmnopqrstuvwxyz';
-const encrypt_key = 'bcdefghijklmnopqrstuvwxyza';
+const encrypt_key = 'qwertyuioplkjhgfdsazxcvbnm';
 
 function encrypt(text) {
   let result = '';
