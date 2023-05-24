@@ -1,3 +1,42 @@
 body {
   background-color: yellow;
 }
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>My Favorite Animal</title>
+    <style>
+      body {
+        background-color: #2B4570;
+        color: white;
+        padding: 40px;
+      }
+      
+      h1,
+      p {
+        text-align: center;
+      }
+      
+      img {
+        border-radius: 10px;
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        width: 600px;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <h1>My Favorite Animal</h1>
+    <p>The wombat is my favorite animal because it looks like a giant hampster.</p>
+    <img id="animal-image" src="https://i.pinimg.com/originals/ff/3a/10/ff3a10d32dcc459a8e1daebbd04bd8f0.jpg" alt="wombat" />
+    <script>
+      let animal = document.getElementById('animal-image');
+      animal.addEventListener('click', () => {
+        alert('You clicked the Wombat!');
+      });
+    </script>
+  </body>
+</html>
